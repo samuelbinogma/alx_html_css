@@ -1,4 +1,5 @@
 body {
+    background: burlywood;
     display: flex;
     flex-direction: column;
 }
@@ -10,11 +11,13 @@ main {
 }
 
 article {
+    background: blanchedalmond;
     flex: 2;
     overflow-y: auto;
 }
 
 aside {
+    background: cornflowerblue;
     flex: 1;
     overflow-y: auto;
 }
