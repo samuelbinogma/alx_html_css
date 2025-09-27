@@ -21,3 +21,7 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+
+li:hover a {
+    color: aqua;
+}
