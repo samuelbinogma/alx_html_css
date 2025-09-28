@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.primary-color {
+    color: #c271ff;
+}
+
 .big-page {
     background: url(images/Object.png);
     width: 100%;
@@ -243,4 +247,39 @@
 
 .grey-color {
     color: grey;
+}
+
+.membership-section {
+    background: #071629;
+}
+
+.membership-section h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5rem;
+}
+
+.memberships {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 6rem;
+}
+
+.membership {
+    display: grid;
+    grid-template-rows: repeat(3 1fr);
+    place-items: center;
+}
+.membership img {
+    padding-bottom: 2.5rem;
+}
+
+.membership h3 {
+    color: #ffffff;
+    /* text-align: center; */
+}
+
+.membership p {
+    padding-top: 1rem;
+    color: #ffffff;
 }
