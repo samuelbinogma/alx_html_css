@@ -326,10 +326,37 @@
     padding-top: 1rem;
 }
 
-.faq_1 p{
+.faq_1 p {
     padding-bottom: 3rem;
 }
 
-.faq_2 p{
+.faq_2 p {
     padding-bottom: 3rem;
+}
+
+#footer {
+    background: #071629;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.fa-brands {
+    color: #fff;
+}
+
+.footer-icons i {
+    padding-left: 2rem;
+}
+
+.footer-text {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: gray;
 }
