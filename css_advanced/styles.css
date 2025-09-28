@@ -8,6 +8,13 @@
     color: #c271ff;
 }
 
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .big-page {
     background: url(images/Object.png);
     width: 100%;
@@ -250,6 +257,7 @@
 }
 
 .membership-section {
+    width: 100%;
     background: #071629;
 }
 
@@ -282,4 +290,46 @@
 .membership p {
     padding-top: 1rem;
     color: #ffffff;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 42px;
+    padding-top: 4rem;
+}
+
+.faqs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.faq_1 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 4rem;
+}
+
+.faq_1 h3 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.faq_2 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 4rem;
+}
+
+.faq_2 h3 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.faq_1 p{
+    padding-bottom: 3rem;
+}
+
+.faq_2 p{
+    padding-bottom: 3rem;
 }
