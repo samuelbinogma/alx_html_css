@@ -120,3 +120,96 @@
     border-radius: 50%;
 }
 
+.quote {
+    display: flex;
+    background: #c271ff;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 392px;
+}
+
+.quote .quote-text {
+    color: #ffffff;
+}
+
+.quote-text h3 {
+    padding-top: 2.5rem;
+}
+
+.quote-text p {
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+.blockquote-block {
+    display: block;
+    padding-top: 0.4rem;
+}
+
+.popular-tutorials {
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.popular-tutorials h2 {
+    text-align: center;
+}
+
+.tutorials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 2rem;
+    padding: 4rem;
+}
+
+.tutorial h3 {
+    padding-top: 0.8rem;
+    padding-left: 0.6rem;
+}
+
+.tutorial p {
+    padding-top: 0.5rem;
+    padding-left: 0.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.tutorial-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 1rem;
+}
+
+.tutorial-image img {
+    width: 35px;
+}
+
+.tutorial-image h4 {
+    display: inline;
+    color: #c271ff;
+}
+
+.tutorial-star-min {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.6rem;
+}
+
+.tutorial-star {
+    display: inline;
+}
+
+.tutorial-star-min p {
+    padding-right: 3.5rem;
+    color: #c271ff;
+}
+
+.fa-solid {
+    color: #c271ff;
+}
+
+.grey-color {
+    color: grey;
+}
