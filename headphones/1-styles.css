@@ -8,18 +8,28 @@
 a {
     text-decoration: none;
 }
- @font-face {
+
+@font-face {
     font-family: 'SpinCycle';
     src: url(fonts/Spin\ Cycle/spincycle_3d_ot.otf),
          url(fonts/Spin\ Cycle/spincycle_ot.otf);
     
- }
+}
 
- @font-face {
+@font-face {
     font-family: 'SourceSansPro';
     src: url(fonts/Source\ Sans\ Pro/SourceSansPro-Regular.otf),
          url(fonts/Source\ Sans\ Pro/SourceSansPro-Bold.otf);
- }
+}
+
+/* 
+@font-face {
+    font-family: 'IconFont';
+    src: url(fonts/Font\ Icons/holberton_school-icon.eot),
+        url(fonts/Font\ Icons/holberton_school-icon.ttf),
+        url(fonts/Font\ Icons/holberton_school-icon.woff);
+} */
+
 
 /* Header */
 #header {
@@ -101,4 +111,38 @@ a {
     text-align: center;
     color: #ffffff;
     font-family: 'SourceSansPro';
+}
+
+/* What we do Section */
+
+.wwd {
+    padding-top: 10rem;
+    font-family: 'SourceSansPro';
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.wwd-icons {
+    padding-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.wwd-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.wwd-icon span {
+    color: #ff6565;
+    font-size: 8rem;
+}
+
+.wwd-icon p {
+    padding-top: 3rem;
+    line-height: 1.5rem;
 }
