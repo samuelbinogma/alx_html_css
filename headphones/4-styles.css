@@ -262,3 +262,38 @@ a {
     outline: none;
     transition: border-color 0.3s;
 }
+
+/* Footer */
+
+#footer {
+    background: #071629;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #071629;
+}
+
+.footer-logo img {
+    width: 10rem;
+}
+
+.footer-icons span {
+    color: #ffffff;
+    font-size: 2rem;
+    padding-left: 0.8rem;
+}
+
+.copyright {
+    padding-top: 4rem;
+}
+
+.copyright p {
+    text-align: center;
+    font-family: 'SourceSansPro';
+    color: #787878;
+}
